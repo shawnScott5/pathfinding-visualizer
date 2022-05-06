@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+    margin: 50px 0 0;
+  }
+
+  .header {
+    padding: 18px 0;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    color: #fff;
+    background-color: rgb(12, 53, 71);
+    padding-left: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+  
+  .buttons {
+    align-items: center;
+    display: flex;
+    padding-right: 25px;
+  }
+
+  button {
+    background-color: rgba(0, 190, 218, 0.75);
+    color: white;
+    padding: 8px;
+    width: 80px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+
+  .start-button {
+    padding-right: 15px;
+  }
+
+  .clear-button {
+    padding-left: 15px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+  }
+
+  p {
+    width: 120px;
+    display: flex;
+  }
+
+  .node-container {
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nodes {
+    margin-right: 8px;
+    height: 25px;
+    width: 25px;
+  }
+
+  .green-node {
+    margin-left: 40px;
+    background-color: green;
+  }
+
+  .red-node {
+    background-color: red;
+  }
+
+  .white-node {
+    background-color: #fff;
+    border: 1px solid rgb(175, 216, 248);
+  }
+
+  .blue-node {
+    background-color: rgba(0, 190, 218, 0.75);
+  }
+
+  .wall-node {
+    background-color: rgb(12, 53, 71);
+  }
+  .path-node {
+    background-color: yellow;
+  }
